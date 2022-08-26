@@ -1,0 +1,741 @@
+body{
+    background-color:rgb(10, 19, 10);
+    margin: 0;
+    padding: 0;
+}
+
+nav.Container > div img{
+    height: 80px;
+    margin-top: 2%;
+    margin-left: 1%;
+    position: absolute;
+}
+  
+nav.Container > h1{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    color: white;
+    position: inherit;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+  
+nav.Container > p{
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10pt;
+    position: absolute;
+    margin-left:150px;
+    margin-top: 70px;
+}
+.menu{
+    float: right;
+    margin-top: 12px;
+    margin-right: 27px;
+}
+.border {
+  background-color: rgb(204, 199, 199);
+  height: 50px;
+  padding-top: 0.4%;
+}
+.nav2{
+    background-color: rgb(1, 14, 1);
+    padding :10px;
+    height: 40px;
+    position: relative;
+}
+.btn-change{
+    border-style: solid;
+    height: 30px;
+    background: rgb(1, 14, 1);
+}
+  
+.btn-change:hover{
+    background: green;
+}
+  
+.btn-change1{
+    border-style: solid;
+    height: 30px;
+    background: rgb(1, 14, 1);
+}
+  
+.btn-change1:hover{
+    background: green;
+}
+  
+.btn-change2{
+    border-style: solid;
+    height:30px;
+    background: rgb(1, 14, 1);
+}
+  
+.btn-change2:hover{
+    background: green;
+}
+  
+.btn-change3{
+    border-style: solid;
+    height: 30px;
+    background: rgb(1, 14, 1);
+}
+  
+.btn-change3:hover{
+    background: green;
+  }
+  
+.btn-change4{
+    border-style: solid;
+    height: 30px;
+    background: rgb(1, 14, 1);
+}
+  
+.btn-change4:hover{
+    background: green;
+}
+
+.search{
+    float: right;
+    padding-top: 0%;
+    padding-right: 2%;
+    height: 10%;
+    width: 25%;
+}
+
+.search input{
+    margin-top: 7%;
+    margin-right: 5%;
+    height: 35px;
+    width: 100%;
+}
+span.signup > a{
+    float:right;
+    margin-right: 50px;
+    text-decoration: none;
+    color:white;
+}
+span.signup :hover{
+    color: green;
+}
+  
+.UP > img{
+    float:right;
+    height: 31px;
+    width: 31px;
+    margin-top: 5px;
+    margin-right:10px;
+}
+  
+span.login > a{
+    float:right;
+    margin-right: 80px;
+    text-decoration: none;
+    color:rgb(252, 246, 246);
+}
+  
+span.login :hover{
+    color: green;
+}
+  
+.IN > img{
+    float:right;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.vanie img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    float: left;
+}
+.home{
+    font-size: 12pt;
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    padding: 0px;
+    margin-left:10px; 
+    float: left;
+}
+
+@media only screen and (max-width:500px)
+{
+    .search input{
+    margin-top: 52%;
+    margin-right: 5%;
+    height: 25px;
+    width: 100%;
+    }
+    span.signup > a{
+
+        margin-top: 10px;
+        text-decoration: none;
+        color:black;
+    }
+    span.login > label{
+        margin-top: 10px;
+        text-decoration: none;
+        color:black;
+    }
+    .UP > img{
+        float:right;
+        height: 31px;
+        width: 31px;
+        margin-top: 5px;
+        
+    }
+    .IN > img{
+        float:right;
+        height: 30px;
+        width: 30px;
+        margin-top: 5px;
+        
+    }
+
+  .nav2{
+    background-color: white;
+    height: 40px;
+    margin-top: 4%;
+    position: relative;
+    
+  }
+  .btn-change{
+      border-style: none;
+      display: block;
+  }
+  .btn-change1{
+    border-style: none;
+    display: block;
+ }
+  .btn-change2{
+    border-style: none;
+    display: block;
+  }
+  .btn-change3{
+    border-style: none;
+    display: block;
+  }
+  .btn-change4{
+    border-style: none;
+    display: block;
+    }
+}
+
+.hero-banner_image .object-fit {
+  font-family: "object-fit: cover; object-position: center center";
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  width: 100%;
+
+}
+
+.pic {
+  height: 400px;
+  width: 100%;
+  background-image: url("https://media.istockphoto.com/photos/environment-concept-globe-glass-in-green-forest-with-sunlight-picture-id1309463809?k=20&m=1309463809&s=170667a&w=0&h=Zs9aMDtsMXHXCDbKnNflXzx1UdtUFi-Yr3awbJl3_RM=");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  image-resolution:1024px;
+}
+.pic h3{
+  font-size: 35pt;
+  opacity: 0.7;
+  margin-top: 8%;
+  margin-left: 15%;
+  float: left;
+}
+.pic p{
+  font-size: 25pt;
+  opacity: 0.8;
+  margin-top: 4%;
+  margin-left: 20%;
+}
+.J{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: greenyellow;
+    width: 90%;
+    height: 60%;
+  }
+.J img{
+    width: 60%;
+    height:550px;
+   
+    image-resolution: 720px;
+    float: left;
+    position: relative;
+  }
+
+.carousel {
+  height: 400px;
+  width: 35%;
+  margin-left: 2%;
+  margin-top: 4%;
+  position: relative;
+}
+
+
+.text h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: greenyellow;
+  margin: 10% 4% 0% 4% ;
+}
+.text p{
+  font-family: 'Roboto';
+  font-style:oblique;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: justify;
+  margin: 2% 4% 0% 4% ;
+  text-indent: 10%;
+  color: white;
+}
+.text{
+  height: 400px;
+  width: 35%;
+  margin-top: -33%;
+  margin-left: 37%;
+  position: relative;
+}
+
+.btn button{
+  margin-top: 3%;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  text-transform:capitalize;
+  color: white;
+  background: #105B13;
+  border-radius: 0px 15px;
+  margin-left: 5%;
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+.cali {
+  margin-left: 72%;
+  margin-top: -30%;
+  height: 400px;
+  width: 25%;
+}
+@media only screen and (max-width:1240px)
+{
+  .carousel {
+    height: 400px;
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 4%;
+    position: relative;
+  }
+  .text{
+    height: 400px;
+    width: 60%;
+    margin-top: -3%;
+    margin-left: 4%;
+    position: relative;
+  }
+  .cali {
+    margin-left: 65%;
+    margin-top: -50%;
+    height: 400px;
+    width: 32%;
+  }
+  
+}
+
+
+  :root {
+    --light-main: rgb(160, 247, 160);
+    --light-second: green;
+    --light-hover: rgb(67, 201, 67);
+    --light-text: rgb(1, 14, 1);
+  
+    --blue: green;
+    --white: #fff;
+    --font-family: cursive;
+  }
+  
+  .light {
+    --bg-body: var(--light-body);
+    --bg-main: var(--light-main);
+    --bg-second: var(--light-second);
+    --color-hover: var(--light-hover);
+    --color-txt: var(--light-text);
+    height:65%;
+    width: 100%; 
+    display: block;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .calendar {
+    height: 60%;
+    width: 100%;
+    background-color: var(--bg-main);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .light .calendar {
+    box-shadow: var(--shadow);
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12pt;
+    font-weight: 600;
+    color: var(--color-txt);
+    padding: 10px;
+  }
+  
+  .calendar-body {
+    padding: 10px;
+  }
+  
+  .calendar-week-day {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+  }
+  
+  .calendar-week-day div {
+    display: grid;
+    place-items: center;
+    color: var(--bg-second);
+    width:50%
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: -5%;
+    color: var(--color-txt);
+  }
+  
+  .calendar-days div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    animation: to-top 1s forwards;
+  }
+  
+  .calendar-days div span {
+    position: absolute;
+  }
+  
+  .calendar-days div:hover span {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+  }
+  
+  .calendar-days div span:nth-child(1),
+  .calendar-days div span:nth-child(3) {
+    width: 2px;
+    height: 0;
+    background-color: var(--color-txt);
+  }
+  
+  .calendar-days div:hover span:nth-child(1),
+  .calendar-days div:hover span:nth-child(3) {
+    height: 100%;
+  }
+  
+  .calendar-days div span:nth-child(1) {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .calendar-days div span:nth-child(3) {
+    top: 0;
+    right: 0;
+  }
+  
+  .calendar-days div span:nth-child(2),
+  .calendar-days div span:nth-child(4) {
+    width: 0;
+    height: 2px;
+    background-color: var(--color-txt);
+  }
+  
+  .calendar-days div:hover span:nth-child(2),
+  .calendar-days div:hover span:nth-child(4) {
+    width: 100%;
+  }
+  
+  .calendar-days div span:nth-child(2) {
+    top: 0;
+    left: 0;
+  }
+  
+  .calendar-days div span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .calendar-days div:hover span:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+  
+  .calendar-days div:hover span:nth-child(3) {
+    transition-delay: 0.4s;
+  }
+  
+  .calendar-days div:hover span:nth-child(4) {
+    transition-delay: 0.6s;
+  }
+  
+  .calendar-days div.curr-date,
+  .calendar-days div.curr-date:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 50%;
+  }
+  
+  .calendar-days div.curr-date span {
+    display: none;
+  }
+  
+  .month-picker {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .month-picker:hover {
+    background-color: var(--color-hover);
+  }
+  
+  .year-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .year-change {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .year-change:hover {
+    background-color: var(--color-hover);
+  }
+  
+  .toggle {
+    display: flex;
+  }
+  
+  .toggle span {
+    margin-right: 10px;
+    color: var(--color-txt);
+  }
+  
+  .month-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-main);
+    padding: 20px;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    display: grid;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .month-list.show {
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .month-list > div {
+    display: grid;
+    place-items: center;
+  }
+  
+  .month-list > div > div {
+    width: 100%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--color-txt);
+  }
+  
+  .month-list > div > div:hover {
+    background-color: var(--color-hover);
+  }
+  
+  @keyframes to-top {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+  
+
+   @media only screen and (max-width:500px)
+   {
+    .calendar {
+        height: 60%;
+        width: 100%;
+        background-color: var(--bg-main);
+        border-radius: 20px;
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    .calendar-days div {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        animation: to-top 1s forwards;
+    }
+    .month-picker{
+        font-size: 8pt;
+    }
+    .year-change{
+        font: 8pt;
+    }
+    .calendar-week-day{
+        font-size: 8pt;
+    }
+    .year-change{
+        font-size: 8pt;
+    }
+    #year{
+        font-size: 8pt;
+    }
+    .calendar-days{
+        font-size: 8pt;
+    }
+   }
+
+   footer {
+    position: relative;
+    bottom: 0;
+}
+
+
+.footer{
+    display: flex;
+}
+.footer-distributed {
+    text-align: left;
+    padding: 55px 55px;
+}
+
+.footer-distributed .footer-left
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    margin-right: 5px;
+}
+
+.footer-distributed h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+.footer-distributed p{
+    width: 250px;
+    height: 36px;
+    font-size: 10px;
+    color: white;
+}
+
+.footer-distributed .footer-company-name {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer-distributed .line{
+    width: 100%;
+    height: 8px;
+    background: #DDDDDD;
+    margin-bottom: 20px;
+}
+.footer-center{
+    margin-left: 270px;
+}
+
+.footer-center span{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.footer-links a{
+    display: inline;
+    font-size: 20px;
+    color: white;
+}
+.right{
+    margin-left: 200px;
+}
+.images img{
+    padding: 10px;
+}
+
