@@ -1,2 +1,3 @@
 # ShinigamiRyuk419.github.io
-Ngano kaha ni
+For Admin login : email = 'RCwebsite'
+                  password ='admin'
